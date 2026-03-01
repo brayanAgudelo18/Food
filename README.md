@@ -4,11 +4,15 @@ Página de comidas rápidas hecha con React, Vite y Tailwind CSS.
 
 ## GitHub Pages
 
-El sitio se despliega en **GitHub Pages** con GitHub Actions.
+El sitio se despliega con GitHub Actions.
 
-- **URL:** https://brayanagudelo18.github.io/Food/
-- En el repositorio: **Settings → Pages → Source:** elige **GitHub Actions**.
-- Cada push a `main` genera un nuevo despliegue.
+**Enlace directo del sitio:**  
+**https://brayanagudelo18.github.io/Food/**
+
+Si no ves el enlace en Settings:
+1. Ve a la pestaña **Actions** del repo y comprueba que el workflow "Deploy to GitHub Pages" haya terminado en verde.
+2. En **Settings → Pages**, en "Source" debe estar elegido **GitHub Actions**. Tras el primer despliegue exitoso ahí aparecerá el enlace.
+3. Puedes ejecutar el despliegue a mano: **Actions → Deploy to GitHub Pages → Run workflow**.
 
 ## Desarrollo local
 
